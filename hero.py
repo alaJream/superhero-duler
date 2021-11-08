@@ -2,6 +2,7 @@
 import random
 from ability import Ability
 from armor import Armor
+from weapon import Weapon
 
 class Hero:
   # We want our hero to have a default "starting_health",
@@ -100,6 +101,12 @@ class Hero:
             self.add_kill(1)
             opponent.add_death(1)
             return True
+  def add_weapon(self, weapon):
+    '''Add weapon to self.abilities'''
+    # TODO: This method will append the weapon object passed in as an
+    # argument to self.abilities.
+    # This means that self.abilities will be a list of
+    # abilities and weapons.
     pass
 
 
