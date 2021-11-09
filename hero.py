@@ -88,5 +88,10 @@ if __name__ == "__main__":
     hero1.fight(hero2)
 
 
+    hero = Hero("Wonder Woman")
+    weapon = Weapon("Lasso of Truth", 90)
+    hero.add_weapon(weapon)
+    print(hero.attack())
+
 
 

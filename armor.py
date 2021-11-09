@@ -12,7 +12,7 @@ class Armor:
   def block(self):
     # TODO: Return a random value between 0 and the
     # initialized max_block strength.
-    pass
+    return random.randint(0, self.max_block)
 
 if __name__ == "__main__":
     armor = Armor("Debugging Shield", 10)
